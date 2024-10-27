@@ -1,0 +1,98 @@
+//
+//  AbeeColor.swift
+//  ABEE
+//
+//  Created by 엄지호 on 10/2/24.
+//
+
+import UIKit
+
+extension UIColor {
+    static let color1d232c = UIColor(red: 29 / 255, green: 35 / 255, blue: 44 / 255, alpha: 1)
+    static let color8f8f8f = UIColor(red: 143 / 255, green: 143 / 255, blue: 143 / 255, alpha: 1)
+    static let colorf8f8f8 = UIColor(red: 248 / 255, green: 248 / 255, blue: 248 / 255, alpha: 1)
+    static let colorf1f1f1 = UIColor(red: 241 / 255, green: 241 / 255, blue: 241 / 255, alpha: 1)
+    static let color70767f = UIColor(red: 112 / 255, green: 118 / 255, blue: 127 / 255, alpha: 1)
+    
+    static let color9f9f9f = UIColor(red: 159 / 255, green: 159 / 255, blue: 159 / 255, alpha: 1)
+    static let colorf9f9f9 = UIColor(red: 249 / 255, green: 249 / 255, blue: 249 / 255, alpha: 1)
+    static let colorf2f2f2 = UIColor(red: 242 / 255, green: 242 / 255, blue: 242 / 255, alpha: 1)
+    static let colorf2f5fc = UIColor(red: 242 / 255, green: 245 / 255, blue: 252 / 255, alpha: 1)
+    static let colorf6f6f6 = UIColor(red: 246 / 255, green: 246 / 255, blue: 246 / 255, alpha: 1)
+    static let color242424 = UIColor(red: 36 / 255, green: 36 / 255, blue: 36 / 255, alpha: 1)
+    static let color2d2d2d = UIColor(red: 45 / 255, green: 45 / 255, blue: 45 / 255, alpha: 1)
+    static let color2c2c2c = UIColor(red: 44 / 255, green: 44 / 255, blue: 44 / 255, alpha: 1)
+    static let color959595 = UIColor(red: 149 / 255, green: 149 / 255, blue: 149 / 255, alpha: 1)
+    static let color969696 = UIColor(red: 150 / 255, green: 150 / 255, blue: 150 / 255, alpha: 1)
+    static let color989898 = UIColor(red: 152 / 255, green: 152 / 255, blue: 152 / 255, alpha: 1)
+    static let color868b94 = UIColor(red: 134 / 255, green: 139 / 255, blue: 148 / 255, alpha: 1)
+    
+    static let coloreff3f5 = UIColor(red: 239 / 255, green: 243 / 255, blue: 245 / 255, alpha: 1)
+    static let color878d93 = UIColor(red: 135 / 255, green: 141 / 255, blue: 147 / 255, alpha: 1)
+    static let color878b94 = UIColor(red: 134 / 255, green: 139 / 255, blue: 148 / 255, alpha: 1)
+    static let color646464 = UIColor(red: 100 / 255, green: 100 / 255, blue: 100 / 255, alpha: 1)
+    static let colore9e9e9 = UIColor(red: 233 / 255, green: 233 / 255, blue: 233 / 255, alpha: 1)
+    
+    static let colord4d4d4 = UIColor(red: 212 / 255, green: 212 / 255, blue: 212 / 255, alpha: 1)
+    static let colord5d5d5 = UIColor(red: 213 / 255, green: 213 / 255, blue: 213 / 255, alpha: 1)
+    static let colordbdbdb = UIColor(red: 219 / 255, green: 219 / 255, blue: 219 / 255, alpha: 1)
+    static let color515151 = UIColor(red: 81 / 255, green: 81 / 255, blue: 81 / 255, alpha: 1)
+    static let colorfdeada = UIColor(red: 253 / 255, green: 234 / 255, blue: 218 / 255, alpha: 1)
+    static let colorfa4e29 = UIColor(red: 250 / 255, green: 78 / 255, blue: 41 / 255, alpha: 1)
+    static let colorfafafa = UIColor(red: 250 / 255, green: 250 / 255, blue: 250 / 255, alpha: 1)
+    static let colorfe5c02 = UIColor(red: 254 / 255, green: 92 / 255, blue: 2 / 255, alpha: 1)
+    static let colore6e6e6 = UIColor(red: 230 / 255, green: 230 / 255, blue: 230 / 255, alpha: 1)
+    static let colorffee00 = UIColor(red: 255 / 255, green: 238 / 255, blue: 0 / 255, alpha: 1)
+    static let colorffebb5 = UIColor(red: 255 / 255, green: 235 / 255, blue: 181 / 255, alpha: 1)
+    static let colorf7f7f7 = UIColor(red: 247 / 255, green: 247 / 255, blue: 247 / 255, alpha: 1)
+    
+    static let colorff4a00 = UIColor(red: 255 / 255, green: 74 / 255, blue: 0 / 255, alpha: 1)
+    static let color9a9a9a = UIColor(red: 154 / 255, green: 154 / 255, blue: 154 / 255, alpha: 1)
+    static let color9b9b9b = UIColor(red: 155 / 255, green: 155 / 255, blue: 155 / 255, alpha: 1)
+    static let color8e8e8e = UIColor(red: 142 / 255, green: 142 / 255, blue: 142 / 255, alpha: 1)
+    static let colore8e8e8 = UIColor(red: 232 / 255, green: 232 / 255, blue: 232 / 255, alpha: 1)
+    
+    static let color353b48 = UIColor(red: 53 / 255, green: 59 / 255, blue: 72 / 255, alpha: 1)
+    static let color9e9896 = UIColor(red: 158 / 255, green: 152 / 255, blue: 150 / 255, alpha: 1)
+    static let color444444 = UIColor(red: 68 / 255, green: 68 / 255, blue: 68 / 255, alpha: 1)
+    static let color393939 = UIColor(red: 57 / 255, green: 57 / 255, blue: 57 / 255, alpha: 1)
+    static let colorf2f4f3 = UIColor(red: 242 / 255, green: 244 / 255, blue: 243 / 255, alpha: 1)
+    static let colorf3f3f3 = UIColor(red: 243 / 255, green: 243 / 255, blue: 243 / 255, alpha: 1)
+    static let colorf4f4f4 = UIColor(red: 244 / 255, green: 244 / 255, blue: 244 / 255, alpha: 1)
+    static let colorbfbfbf = UIColor(red: 191 / 255, green: 191 / 255, blue: 191 / 255, alpha: 1)
+    static let colorb5b5b5 = UIColor(red: 181 / 255, green: 181 / 255, blue: 181 / 255, alpha: 1)
+    
+    static let color64686b = UIColor(red: 100 / 255, green: 104 / 255, blue: 107 / 255, alpha: 1)
+    static let colorc7c7c7 = UIColor(red: 199 / 255, green: 199 / 255, blue: 199 / 255, alpha: 1)
+    static let color717171 = UIColor(red: 113 / 255, green: 113 / 255, blue: 113 / 255, alpha: 1)
+    static let colorfeac02 = UIColor(red: 254 / 255, green: 172 / 255, blue: 2 / 255, alpha: 1)
+    static let colore2e2e2 = UIColor(red: 226 / 255, green: 226 / 255, blue: 226 / 255, alpha: 1)
+    static let color2e2e2e = UIColor(red: 46 / 255, green: 46 / 255, blue: 46 / 255, alpha: 1)
+    
+    static let colorfdf0f0 = UIColor(red: 253 / 255, green: 240 / 255, blue: 240 / 255, alpha: 1)
+    static let coloreb483f = UIColor(red: 235 / 255, green: 72 / 255, blue: 63 / 255, alpha: 1)
+    static let color368fff = UIColor(red: 54 / 255, green: 143 / 255, blue: 255 / 255, alpha: 1)
+    static let colorf0f5fd = UIColor(red: 240 / 255, green: 245 / 255, blue: 253 / 255, alpha: 1)
+    static let coloreff1f5 = UIColor(red: 239 / 255, green: 241 / 255, blue: 245 / 255, alpha: 1)
+    static let color707070 = UIColor(red: 112 / 255, green: 122 / 255, blue: 112 / 255, alpha: 1)
+    static let colordf5b20 = UIColor(red: 223 / 255 , green: 91 / 255, blue: 32 / 255, alpha: 1)
+    static let color7b7f82 = UIColor(red: 123 / 255, green: 127 / 255, blue: 30 / 255, alpha: 1)
+    static let colorfcb300 = UIColor(red: 252 / 255, green: 179 / 255, blue: 0 / 255, alpha: 1)
+    static let colorfca31e = UIColor(red: 252 / 255, green: 163 / 255, blue: 30 / 255, alpha: 1)
+    static let color747474 = UIColor(red: 116 / 255, green: 116 / 255, blue: 166 / 255, alpha: 1)
+    static let colorf5f5f5 = UIColor(red: 245 / 255, green: 245 / 255, blue: 245 / 255, alpha: 1)
+    static let coloracacac = UIColor(red: 172 / 255, green: 172 / 255, blue: 172 / 255, alpha: 1)
+    static let colorffc72a = UIColor(red: 255 / 255, green: 199 / 255, blue: 42 / 255, alpha: 1)
+    static let colorb3b8c5 = UIColor(red: 179 / 255, green: 184 / 255, blue: 197 / 255, alpha: 1)
+    static let color585858 = UIColor(red: 88 / 255, green: 88 / 255, blue: 88 / 255, alpha: 1)
+    static let colorebebeb = UIColor(red: 235 / 255, green: 235 / 255, blue: 235 / 255, alpha: 1)
+    static let colorff0000 = UIColor(red: 255 / 255, green: 0 / 255, blue: 0 / 255, alpha: 1)
+    static let color6191ce = UIColor(red: 97 / 255, green: 145 / 255, blue: 206 / 255, alpha: 1)
+    static let color666666 = UIColor(red: 102 / 255, green: 102 / 255, blue: 102 / 255, alpha: 1)
+    static let colorffb7a8 = UIColor(red: 255 / 255, green: 183 / 255, blue: 168 / 255, alpha: 1)
+    static let colorfb8dbc = UIColor(red: 251 / 255, green: 141 / 255, blue: 188 / 255, alpha: 1)
+    static let color9eb5fb = UIColor(red: 158 / 255, green: 181 / 255, blue: 251 / 255, alpha: 1)
+    static let color929292 = UIColor(red: 146 / 255, green: 146 / 255, blue: 146 / 255, alpha: 1)
+    static let color0fc860 = UIColor(red: 15 / 255, green: 200 / 255, blue: 96 / 255, alpha: 1)
+    static let color323232 = UIColor(red: 50 / 255, green: 50 / 255, blue: 50 / 255, alpha: 1)
+}
