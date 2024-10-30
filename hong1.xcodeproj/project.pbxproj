@@ -94,7 +94,6 @@
 		8E9221D62CC22F940088B5C9 /* ScrapAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9221D52CC22F940088B5C9 /* ScrapAdTableViewCell.swift */; };
 		8E9221D82CC232880088B5C9 /* BaseAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9221D72CC232880088B5C9 /* BaseAdTableViewCell.swift */; };
 		8E9221DA2CC2441A0088B5C9 /* ScrapAdTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9221D92CC2441A0088B5C9 /* ScrapAdTableViewHeader.swift */; };
-		8E955B942CCD1C4F0081B441 /* WarningPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E955B932CCD1C4F0081B441 /* WarningPopUpViewController.swift */; };
 		8E9647372CCBAA2800DFD582 /* AgeGroupChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9647362CCBAA2800DFD582 /* AgeGroupChartTableViewCell.swift */; };
 		8E98D8452CC3CBD400EE88CA /* RegionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98D8442CC3CBD400EE88CA /* RegionSelectionViewController.swift */; };
 		8E98D8472CC3DBE400EE88CA /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98D8462CC3DBE400EE88CA /* RegionTableViewCell.swift */; };
@@ -106,6 +105,7 @@
 		8EABEF762CC7EC1D00112E5C /* PartnershipInquiriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABEF752CC7EC1D00112E5C /* PartnershipInquiriesViewController.swift */; };
 		8EAD4B282CC4D29900834C7D /* SuccessMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD4B272CC4D29900834C7D /* SuccessMessageViewController.swift */; };
 		8EB44DC32CC60C4200297502 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB44DC22CC60C4200297502 /* MainTabBarViewController.swift */; };
+		8EBB90282CD1168000AEB3C2 /* WarningPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB90272CD1168000AEB3C2 /* WarningPopUpViewController.swift */; };
 		8EBFBD4E2CC4F4D8004E587C /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFBD4D2CC4F4D8004E587C /* AnnouncementTableViewController.swift */; };
 		8EBFBD502CC4F844004E587C /* AnnouncementHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFBD4F2CC4F844004E587C /* AnnouncementHeaderView.swift */; };
 		8EBFBD522CC5095C004E587C /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFBD512CC5095C004E587C /* AnnouncementTableViewCell.swift */; };
@@ -126,9 +126,13 @@
 		8EDC71032CC393510036213E /* MyInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC71022CC393510036213E /* MyInformationTableViewCell.swift */; };
 		8EFCC83A2CCB7BAB00DAB302 /* GenderAdsChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCC8392CCB7BAB00DAB302 /* GenderAdsChartTableViewCell.swift */; };
 		8EFCC83C2CCB802700DAB302 /* PercentValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCC83B2CCB802700DAB302 /* PercentValueFormatter.swift */; };
+		F548D8262CCE505F006A97F7 /* CreatePaidAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F548D8252CCE505F006A97F7 /* CreatePaidAdViewController.swift */; };
+		F548D82C2CCE6D3B006A97F7 /* WarningCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F548D82B2CCE6D3B006A97F7 /* WarningCollectionViewCell.swift */; };
 		F5A5184B2CCD1B1700DAF832 /* CreateAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5184A2CCD1B1700DAF832 /* CreateAdViewController.swift */; };
 		F5A5184D2CCD207E00DAF832 /* CreateAdHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5184C2CCD207E00DAF832 /* CreateAdHeaderTableViewCell.swift */; };
 		F5A5184F2CCD208B00DAF832 /* CreateAdListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5184E2CCD208B00DAF832 /* CreateAdListTableViewCell.swift */; };
+		F5A518512CCD5BE200DAF832 /* CreateFreeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A518502CCD5BE200DAF832 /* CreateFreeAdViewController.swift */; };
+		F5FCBDF92CCE854700F8CC7A /* CreateAdFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCBDF82CCE854700F8CC7A /* CreateAdFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,7 +221,6 @@
 		8E9221D52CC22F940088B5C9 /* ScrapAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapAdTableViewCell.swift; sourceTree = "<group>"; };
 		8E9221D72CC232880088B5C9 /* BaseAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdTableViewCell.swift; sourceTree = "<group>"; };
 		8E9221D92CC2441A0088B5C9 /* ScrapAdTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapAdTableViewHeader.swift; sourceTree = "<group>"; };
-		8E955B932CCD1C4F0081B441 /* WarningPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningPopUpViewController.swift; sourceTree = "<group>"; };
 		8E9647362CCBAA2800DFD582 /* AgeGroupChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGroupChartTableViewCell.swift; sourceTree = "<group>"; };
 		8E98D8442CC3CBD400EE88CA /* RegionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelectionViewController.swift; sourceTree = "<group>"; };
 		8E98D8462CC3DBE400EE88CA /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
@@ -229,6 +232,7 @@
 		8EABEF752CC7EC1D00112E5C /* PartnershipInquiriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnershipInquiriesViewController.swift; sourceTree = "<group>"; };
 		8EAD4B272CC4D29900834C7D /* SuccessMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessMessageViewController.swift; sourceTree = "<group>"; };
 		8EB44DC22CC60C4200297502 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		8EBB90272CD1168000AEB3C2 /* WarningPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningPopUpViewController.swift; sourceTree = "<group>"; };
 		8EBFBD4D2CC4F4D8004E587C /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
 		8EBFBD4F2CC4F844004E587C /* AnnouncementHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementHeaderView.swift; sourceTree = "<group>"; };
 		8EBFBD512CC5095C004E587C /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
@@ -251,9 +255,13 @@
 		8EDC71022CC393510036213E /* MyInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInformationTableViewCell.swift; sourceTree = "<group>"; };
 		8EFCC8392CCB7BAB00DAB302 /* GenderAdsChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderAdsChartTableViewCell.swift; sourceTree = "<group>"; };
 		8EFCC83B2CCB802700DAB302 /* PercentValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentValueFormatter.swift; sourceTree = "<group>"; };
+		F548D8252CCE505F006A97F7 /* CreatePaidAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePaidAdViewController.swift; sourceTree = "<group>"; };
+		F548D82B2CCE6D3B006A97F7 /* WarningCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningCollectionViewCell.swift; sourceTree = "<group>"; };
 		F5A5184A2CCD1B1700DAF832 /* CreateAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAdViewController.swift; sourceTree = "<group>"; };
 		F5A5184C2CCD207E00DAF832 /* CreateAdHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAdHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		F5A5184E2CCD208B00DAF832 /* CreateAdListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAdListTableViewCell.swift; sourceTree = "<group>"; };
+		F5A518502CCD5BE200DAF832 /* CreateFreeAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFreeAdViewController.swift; sourceTree = "<group>"; };
+		F5FCBDF82CCE854700F8CC7A /* CreateAdFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAdFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,9 +447,12 @@
 			children = (
 				8E8B2A852CC6303A0013781C /* AdvertiseViewController.swift */,
 				F5A5184A2CCD1B1700DAF832 /* CreateAdViewController.swift */,
+				F5A518502CCD5BE200DAF832 /* CreateFreeAdViewController.swift */,
+				F548D8252CCE505F006A97F7 /* CreatePaidAdViewController.swift */,
+				F5FCBDF82CCE854700F8CC7A /* CreateAdFormViewController.swift */,
 				8E056AF12CC8ED5A0023A711 /* AdListViewController.swift */,
 				8E3D49FB2CC9FEE60045CE71 /* StatisticalStatusViewController.swift */,
-				8E955B932CCD1C4F0081B441 /* WarningPopUpViewController.swift */,
+				8EBB90272CD1168000AEB3C2 /* WarningPopUpViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -593,6 +604,7 @@
 				F5A5184E2CCD208B00DAF832 /* CreateAdListTableViewCell.swift */,
 				8EC1262D2CCCB1D000FA7267 /* AdvertiseTableViewCell.swift */,
 				8EC1262F2CCCE92D00FA7267 /* SeeMoreTableViewCell.swift */,
+				F548D82B2CCE6D3B006A97F7 /* WarningCollectionViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -723,9 +735,11 @@
 				8E8473712CC765AA00235334 /* AbeePaddingLabel.swift in Sources */,
 				8E84735E2CC765AA00235334 /* UILabel+.swift in Sources */,
 				8EABEF762CC7EC1D00112E5C /* PartnershipInquiriesViewController.swift in Sources */,
+				F548D82C2CCE6D3B006A97F7 /* WarningCollectionViewCell.swift in Sources */,
 				8E8473652CC765AA00235334 /* AbeeCategoryButton.swift in Sources */,
 				8E7AC90A2CC408F2008FE889 /* UnsubscribeViewController.swift in Sources */,
 				8E3D49FC2CC9FEE60045CE71 /* StatisticalStatusViewController.swift in Sources */,
+				8EBB90282CD1168000AEB3C2 /* WarningPopUpViewController.swift in Sources */,
 				8E8CDD162CCBC36E006F7805 /* PersonalizedAdTableViewCell.swift in Sources */,
 				8E9647372CCBAA2800DFD582 /* AgeGroupChartTableViewCell.swift in Sources */,
 				8EDC71032CC393510036213E /* MyInformationTableViewCell.swift in Sources */,
@@ -741,6 +755,7 @@
 				8E7AC90C2CC40DE4008FE889 /* ReasonTableViewCell.swift in Sources */,
 				8E8473742CC765AA00235334 /* AbeeCategoryRadioView.swift in Sources */,
 				F5A5184B2CCD1B1700DAF832 /* CreateAdViewController.swift in Sources */,
+				F5FCBDF92CCE854700F8CC7A /* CreateAdFormViewController.swift in Sources */,
 				8E9C170E2CC367E900CD9DDD /* AboutTableViewCell.swift in Sources */,
 				8E8B2A932CC685560013781C /* EventTableHeaderView.swift in Sources */,
 				8E8CDD182CCBD62B006F7805 /* PersonalizedAdHeaderView.swift in Sources */,
@@ -786,6 +801,7 @@
 				8E84736D2CC765AA00235334 /* AbeeTabButton.swift in Sources */,
 				8E8473632CC765AA00235334 /* NavigationBarAppearanceConfigurable.swift in Sources */,
 				8E056AF62CC8FAB00023A711 /* AdStatView.swift in Sources */,
+				F548D8262CCE505F006A97F7 /* CreatePaidAdViewController.swift in Sources */,
 				8E8473622CC765AA00235334 /* UIWindow+.swift in Sources */,
 				8E98D8452CC3CBD400EE88CA /* RegionSelectionViewController.swift in Sources */,
 				8E8473722CC765AA00235334 /* BasePopUpView.swift in Sources */,
@@ -803,7 +819,6 @@
 				8EFCC83C2CCB802700DAB302 /* PercentValueFormatter.swift in Sources */,
 				8E9221DA2CC2441A0088B5C9 /* ScrapAdTableViewHeader.swift in Sources */,
 				8EBFBD4E2CC4F4D8004E587C /* AnnouncementTableViewController.swift in Sources */,
-				8E955B942CCD1C4F0081B441 /* WarningPopUpViewController.swift in Sources */,
 				8E8472E82CC7608900235334 /* OneToOneTableViewCell.swift in Sources */,
 				8E8473772CC765AA00235334 /* AbeeColor.swift in Sources */,
 				8ED3242D2CC14AC20073A7CE /* NoticeBannerView.swift in Sources */,
@@ -818,6 +833,7 @@
 				8E84736E2CC765AA00235334 /* AbeeTagButton.swift in Sources */,
 				8E3D49FE2CCA11B00045CE71 /* ChartTableViewCell.swift in Sources */,
 				8ED324272CC136E70073A7CE /* KeptAdTableViewCell.swift in Sources */,
+				F5A518512CCD5BE200DAF832 /* CreateFreeAdViewController.swift in Sources */,
 				8E84735A2CC765AA00235334 /* BaseViewController.swift in Sources */,
 				8E8473552CC765AA00235334 /* BaseCollectionReusableView.swift in Sources */,
 				8E9221D62CC22F940088B5C9 /* ScrapAdTableViewCell.swift in Sources */,
